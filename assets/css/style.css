@@ -1,0 +1,99 @@
+.cartao,
+.cartao * {
+    background-color: white;
+}
+
+.cartao {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 560px;
+    margin: auto;
+    border-radius: 25px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    box-shadow: 20px 20px black;
+}
+
+.topo {
+    display: flex;
+    flex-direction: column;
+}
+
+.topo img {
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+#caixa1 {
+    margin-top: 20px;
+    background-color: rgb(244, 208, 78);
+    padding: 5px 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+    max-width: 20%;
+}
+
+#caixa2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.texto a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+
+.texto a:hover{
+    color: rgb(244, 208, 78);
+}
+
+.texto p{
+    margin-top: 0;
+    width: 340px;
+    color: rgb(128, 128, 128);
+    font-size: 16px;
+}
+
+.avatar{
+    margin-top: 15px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.avatar img{
+    width: 40px;
+    height: 40px;
+}
+
+.avatar p{
+    font-weight: bold;
+}
+
+.footer {
+    position: absolute;
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+}
+
+.footer a:hover{
+    color: cornflowerblue;
+    text-decoration: underline;
+}
